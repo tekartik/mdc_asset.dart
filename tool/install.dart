@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:fs_shim/utils/io/copy.dart';
 import 'package:path/path.dart';
 import 'package:tekartik_build_utils/cmd_run.dart';
-import 'package:tekartik_deploy/fs_deploy.dart';
 
 main() async {
   await runCmd(
