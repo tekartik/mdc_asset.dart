@@ -2,24 +2,24 @@
   "_args": [
     [
       "material-components-web",
-      "/media/ssd/devx/git/github.com/tekartik/mdc_asset.dart"
+      "/opt/devx/git/github.com/tekartik/mdc_asset.dart"
     ]
   ],
   "_from": "material-components-web@latest",
-  "_id": "material-components-web@0.13.0",
+  "_id": "material-components-web@0.30.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/material-components-web",
-  "_nodeVersion": "8.0.0",
+  "_nodeVersion": "8.1.4",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/material-components-web-0.13.0.tgz_1497282793950_0.3951288932003081"
+    "tmp": "tmp/material-components-web-0.30.0.tgz_1517868135051_0.7790625656489283"
   },
   "_npmUser": {
-    "email": "travis.kaufman@gmail.com",
-    "name": "traviskaufman"
+    "email": "kenneth.franqueiro@gmail.com",
+    "name": "kfranqueiro"
   },
-  "_npmVersion": "5.0.3",
+  "_npmVersion": "5.3.0",
   "_phantomChildren": {},
   "_requested": {
     "name": "material-components-web",
@@ -32,51 +32,55 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/material-components-web/-/material-components-web-0.13.0.tgz",
-  "_shasum": "e18a2a510e07be102ca89c3b389746fe3e024dab",
+  "_resolved": "https://registry.npmjs.org/material-components-web/-/material-components-web-0.30.0.tgz",
+  "_shasum": "a11f87825ce4aa315854c128769ab9bc145d5796",
   "_shrinkwrap": null,
   "_spec": "material-components-web",
-  "_where": "/media/ssd/devx/git/github.com/tekartik/mdc_asset.dart",
+  "_where": "/opt/devx/git/github.com/tekartik/mdc_asset.dart",
   "bugs": {
     "url": "https://github.com/material-components/material-components-web/issues"
   },
   "dependencies": {
-    "@material/animation": "^0.2.3",
-    "@material/auto-init": "^0.1.2",
-    "@material/base": "^0.2.0",
-    "@material/button": "^0.3.7",
-    "@material/card": "^0.2.3",
-    "@material/checkbox": "^0.3.6",
-    "@material/dialog": "^0.3.1",
-    "@material/drawer": "^0.5.0",
-    "@material/elevation": "^0.1.8",
-    "@material/fab": "^0.3.9",
-    "@material/form-field": "^0.2.7",
-    "@material/grid-list": "^0.2.4",
-    "@material/icon-toggle": "^0.1.12",
-    "@material/layout-grid": "^0.2.0",
-    "@material/linear-progress": "^0.1.2",
-    "@material/list": "^0.2.10",
-    "@material/menu": "^0.3.0",
-    "@material/radio": "^0.2.5",
-    "@material/ripple": "^0.6.2",
-    "@material/select": "^0.3.8",
-    "@material/slider": "^0.1.0",
-    "@material/snackbar": "^0.2.1",
-    "@material/switch": "^0.1.8",
-    "@material/tabs": "^0.2.1",
-    "@material/textfield": "^0.2.11",
-    "@material/theme": "^0.1.5",
-    "@material/toolbar": "^0.4.0",
-    "@material/typography": "^0.2.2"
+    "@material/animation": "^0.25.0",
+    "@material/auto-init": "^0.30.0",
+    "@material/base": "^0.29.0",
+    "@material/button": "^0.30.0",
+    "@material/card": "^0.30.0",
+    "@material/checkbox": "^0.30.0",
+    "@material/chips": "^0.30.0",
+    "@material/dialog": "^0.30.0",
+    "@material/drawer": "^0.30.0",
+    "@material/elevation": "^0.28.0",
+    "@material/fab": "^0.30.0",
+    "@material/form-field": "^0.30.0",
+    "@material/grid-list": "^0.30.0",
+    "@material/icon-toggle": "^0.30.0",
+    "@material/layout-grid": "^0.24.0",
+    "@material/line-ripple": "^0.30.0",
+    "@material/linear-progress": "^0.30.0",
+    "@material/list": "^0.30.0",
+    "@material/menu": "^0.30.0",
+    "@material/radio": "^0.30.0",
+    "@material/ripple": "^0.30.0",
+    "@material/rtl": "^0.30.0",
+    "@material/select": "^0.30.0",
+    "@material/selection-control": "^0.30.0",
+    "@material/slider": "^0.30.0",
+    "@material/snackbar": "^0.30.0",
+    "@material/switch": "^0.30.0",
+    "@material/tabs": "^0.30.0",
+    "@material/textfield": "^0.30.0",
+    "@material/theme": "^0.30.0",
+    "@material/toolbar": "^0.30.0",
+    "@material/typography": "^0.28.0"
   },
   "description": "Modular and customizable Material Design UI components for the web",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "integrity": "sha512-bcxvuEqP60ziZwcoePTdHBYzX/NkWKmTPztw2zTPbHyAMqDrScNJsDVC6AJKNKcGnpMA6jhwSsWQer9fabM7+g==",
-    "shasum": "e18a2a510e07be102ca89c3b389746fe3e024dab",
-    "tarball": "https://registry.npmjs.org/material-components-web/-/material-components-web-0.13.0.tgz"
+    "integrity": "sha512-fpxZIvZcxZoPqQJy/xDI0IwUkSBEyH106FGiAplFQPsDLf6QcIz0OOnS4baQ9+OxIkf3tJlsf6GF96O1gk6ymg==",
+    "shasum": "a11f87825ce4aa315854c128769ab9bc145d5796",
+    "tarball": "https://registry.npmjs.org/material-components-web/-/material-components-web-0.30.0.tgz"
   },
   "homepage": "https://github.com/material-components/material-components-web#readme",
   "keywords": [
@@ -87,36 +91,48 @@
   "main": "index.js",
   "maintainers": [
     {
+      "name": "aprigogin",
+      "email": "andrey.prigogin@gmail.com"
+    },
+    {
       "name": "material-admin",
-      "email": "traviskaufman+npm@google.com"
+      "email": "lynnjepsen+npm@google.com"
+    },
+    {
+      "name": "moog16",
+      "email": "mattgoo@gmail.com"
+    },
+    {
+      "name": "bonniez",
+      "email": "bonniez@google.com"
+    },
+    {
+      "name": "patrickrodee",
+      "email": "prodee@google.com"
+    },
+    {
+      "name": "williamernest",
+      "email": "williamernest@google.com"
+    },
+    {
+      "name": "kfranqueiro",
+      "email": "kenneth.franqueiro@gmail.com"
+    },
+    {
+      "name": "acdvorak",
+      "email": "acdvorak@gmail.com"
+    },
+    {
+      "name": "lynnjepsen",
+      "email": "lynnjepsen@google.com"
     },
     {
       "name": "bwobrien",
       "email": "obrien.test@gmail.com"
     },
     {
-      "name": "ljepsen3541",
-      "email": "ljepsen3541@gmail.com"
-    },
-    {
-      "name": "yeelan0319",
-      "email": "yiranmao@gmail.com"
-    },
-    {
       "name": "amsheehan",
       "email": "alex.m.sheehan@gmail.com"
-    },
-    {
-      "name": "cristobalchao",
-      "email": "cchao87@gmail.com"
-    },
-    {
-      "name": "traviskaufman",
-      "email": "travis.kaufman@gmail.com"
-    },
-    {
-      "name": "sgomes",
-      "email": "mail@sgomes.io"
     }
   ],
   "name": "material-components-web",
@@ -126,5 +142,5 @@
     "type": "git",
     "url": "git+https://github.com/material-components/material-components-web.git"
   },
-  "version": "0.13.0"
+  "version": "0.30.0"
 }
