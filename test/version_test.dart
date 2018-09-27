@@ -14,7 +14,8 @@ void main() {
       Version pubspecVersion = await extractPubspecYamlVersion('.');
       Map mdcNodePackageJson =
           loadYaml(await new File(join("lib", "package.json")).readAsString());
-      Version mdcNodeVersion = new Version.parse(mdcNodePackageJson["version"]);
+      Version mdcNodeVersion =
+          new Version.parse(mdcNodePackageJson["version"] as String);
       expect(pubspecVersion, mdcNodeVersion);
     });
   });
