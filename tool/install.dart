@@ -5,7 +5,7 @@ import 'package:tekartik_build_utils/cmd_run.dart';
 
 main() async {
   await runCmd(
-      processCmd("npm", ["install", "--save", "material-components-web"]));
+      ProcessCmd("npm", ["install", "--save", "material-components-web"]));
   await copyDirectory(
       new Directory(join("node_modules", "material-components-web", "dist")),
       new Directory("lib"));
