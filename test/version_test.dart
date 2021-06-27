@@ -2,6 +2,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 @TestOn("vm")
 import 'dart:io';
+
 import 'package:path/path.dart';
 import 'package:tekartik_common_utils/version_utils.dart';
 import 'package:tekartik_pub/io.dart';
@@ -12,8 +13,9 @@ void main() {
   group('version', () {
     test('compare', () async {
       Version pubspecVersion = await extractPubspecYamlVersion('.');
-      Map mdcNodePackageJson =
-          loadYaml(await new File(join("lib", "package.json")).readAsString());
+      var mdcNodePackageJson =
+          loadYaml(await File(join("lib", "package.json")).readAsString())
+              as Map;
       Version mdcNodeVersion =
           new Version.parse(mdcNodePackageJson["version"] as String);
       expect(pubspecVersion, mdcNodeVersion);
