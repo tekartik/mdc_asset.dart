@@ -2,22 +2,14 @@
 
 Css and Js ready to use from Dart
 
-## Usage
+## Setup
 
-A simple usage example:
-
-    import 'package:mdc_asset/mdc_asset.dart';
-
-    main() {
-      var awesome = new Awesome();
-    }
-
-## Update content
-
-    npm install --save material-components-web
-    
-or simply
-
-    dart tool/install.dart
-    
-
+In `pubspec.yaml`:
+```yaml
+dependencies:
+  tekartik_mdc_asset:
+    git:
+      url: git://github.com/tekartik/mdc_asset.dart
+      ref: dart2
+    version: '>=0.42.1'
+```
